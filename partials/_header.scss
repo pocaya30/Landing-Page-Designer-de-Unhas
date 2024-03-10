@@ -8,13 +8,18 @@ header{
     justify-content: space-between;
 }
 
+.fa-2x{
+    font-size: 3rem;
+}
+
 i{
     color: $white-normal;
+    margin-left: 20px;
+
 }
 
 .header-icons{
     display: flex;
-    gap:14px
 }
 
 .header-icons a:hover {
@@ -40,6 +45,7 @@ i{
     color: $white-normal;
     background-color: transparent;
     transition: background-color 0.8s;
+    margin-right: 20px;
 }
 
 .header-button:hover{
@@ -47,13 +53,23 @@ i{
     background-color: $red-light;
 }
 
+
 .header-logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
-    
+    margin-top: 20px;
+    width: 190px;
+    margin-left: 135px;
 }
+
+.logo-footer{
+    width: 120px;
+    margin-left: 20px;
+}
+
+
+
 
 @media screen and (max-width: 768px){
     .header-content{
@@ -63,15 +79,23 @@ i{
         justify-content: center;
 
         i{
-            margin-top: 16px;
-            font-size: 34px;
+            margin-top: 25px;
+            font-size: 50px;
         }
     }
 
 
     .header-logo img{
-        width:160px;
-        margin-top: 40px;
+        width:250px;
+        margin-top: 10px;
+
+    }
+
+    .header-logo{
+        margin-left: 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
     }
 
    
